@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Typo Blaster</title>
+    <style>
+      body {
+        min-width: 120px;
+        overflow-x: hidden;
+        text-align: center;
+      }
+      button {
+        width: 100%;;
+      }
+      ul {
+        padding: 0;
+      }
+      li {
+        display: flex;
+        justify-content: center;
+      }
+      input {
+        padding: 0;
+        border: 0;
+        font-weight: strong;
+        text-align: center;
+        width: 33px;
+      }
+      input:focus {
+        outline: none;
+        background: #eaeaea;
+      }
+      li:nth-child(1) input,
+      li:nth-child(2) input {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><strong>Instagrid</strong></p>
+    <button id="slyButton" data-status="hidden">Exibir Grid</button>
+    <ul>
+      <li>24 colunas</li>
+      <li>1184px</li>
+      <li>gutter 16px</li>
+    </ul>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+  </body>
+</html>
