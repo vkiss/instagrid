@@ -1,0 +1,32 @@
+{
+  "name": "instagrid",
+  "version": "1.0.0",
+  "description": "Create a grid element on Instapage. Icon by Prettycons from the Noun Project",
+  "main": "manifest.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkiss/instagrid.git"
+  },
+  "keywords": [
+    "instapage",
+    "grid",
+    "chrome",
+    "extension"
+  ],
+  "author": "Vinicius Kiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkiss/instagrid/issues"
+  },
+  "homepage": "https://github.com/vkiss/instagrid#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-terser": "^1.4.0"
+  }
+}
